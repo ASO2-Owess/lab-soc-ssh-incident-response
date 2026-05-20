@@ -1,0 +1,290 @@
+2026-05-18T00:58:58.322443+00:00 ubuntu-server passwd[1184]: password for 'root' changed by 'root'
+2026-05-18T00:58:58.322447+00:00 ubuntu-server groupadd[1189]: group added to /etc/group: name=owess, GID=1000
+2026-05-18T00:58:58.322452+00:00 ubuntu-server groupadd[1189]: group added to /etc/gshadow: name=owess
+2026-05-18T00:58:58.322456+00:00 ubuntu-server groupadd[1189]: new group: name=owess, GID=1000
+2026-05-18T00:58:58.322461+00:00 ubuntu-server useradd[1193]: new user: name=owess, UID=1000, GID=1000, home=/home/owess, shell=/bin/bash, from=none
+2026-05-18T00:58:58.322465+00:00 ubuntu-server useradd[1193]: add 'owess' to group 'sudo'
+2026-05-18T00:58:58.322468+00:00 ubuntu-server useradd[1193]: add 'owess' to shadow group 'sudo'
+2026-05-18T00:58:58.322472+00:00 ubuntu-server passwd[1198]: password for 'owess' changed by 'root'
+2026-05-18T00:58:58.322886+00:00 ubuntu-server systemd-logind[1232]: New seat seat0.
+2026-05-18T00:58:58.322900+00:00 ubuntu-server systemd-logind[1232]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-18T00:58:58.322904+00:00 ubuntu-server systemd-logind[1232]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-18T00:58:58.322908+00:00 ubuntu-server systemd-logind[1232]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-18T01:17:01.343188+00:00 ubuntu-server CRON[1604]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-18T01:17:01.348441+00:00 ubuntu-server CRON[1604]: pam_unix(cron:session): session closed for user root
+2026-05-18T01:23:10.135837+00:00 ubuntu-server login: pam_unix(login:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T01:23:10.173692+00:00 ubuntu-server systemd-logind[1232]: New session '2' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T01:23:10.222925+00:00 ubuntu-server (systemd): pam_unix(systemd-user:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T01:23:10.228753+00:00 ubuntu-server systemd-logind[1232]: New session '3' of user 'owess' with class 'manager' and type 'unspecified'.
+2026-05-18T01:29:06.240203+00:00 ubuntu-server systemd-logind[1010]: New seat seat0.
+2026-05-18T01:29:06.455725+00:00 ubuntu-server systemd-logind[1010]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-18T01:29:06.563718+00:00 ubuntu-server systemd-logind[1010]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-18T01:29:06.799233+00:00 ubuntu-server systemd-logind[1010]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-18T01:29:31.676883+00:00 ubuntu-server login: pam_unix(login:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T01:29:31.701202+00:00 ubuntu-server systemd-logind[1010]: New session '1' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T01:29:31.746523+00:00 ubuntu-server (systemd): pam_unix(systemd-user:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T01:29:31.749865+00:00 ubuntu-server systemd-logind[1010]: New session '2' of user 'owess' with class 'manager' and type 'unspecified'.
+2026-05-18T01:29:57.768739+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T01:29:57.768964+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/apt update
+2026-05-18T01:41:29.639764+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T01:42:18.513611+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T01:42:18.513792+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-05-18T02:07:05.351291+00:00 ubuntu-server systemd-logind[1035]: New seat seat0.
+2026-05-18T02:07:05.524892+00:00 ubuntu-server systemd-logind[1035]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-18T02:07:05.533926+00:00 ubuntu-server systemd-logind[1035]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-18T02:07:05.627660+00:00 ubuntu-server systemd-logind[1035]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-18T02:07:34.831682+00:00 ubuntu-server login: pam_unix(login:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T02:07:34.852960+00:00 ubuntu-server systemd-logind[1035]: New session '1' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T02:07:34.899673+00:00 ubuntu-server (systemd): pam_unix(systemd-user:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T02:07:34.901620+00:00 ubuntu-server systemd-logind[1035]: New session '2' of user 'owess' with class 'manager' and type 'unspecified'.
+2026-05-18T02:08:51.828481+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T02:08:51.828750+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-05-18T02:17:01.973755+00:00 ubuntu-server CRON[1618]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-18T02:17:01.978304+00:00 ubuntu-server CRON[1618]: pam_unix(cron:session): session closed for user root
+2026-05-18T02:54:51.131857+00:00 ubuntu-server (systemd-stdio-bridge): pam_unix(login:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T02:54:51.389927+00:00 ubuntu-server (sd-pam): pam_unix(login:session): session closed for user owess
+2026-05-18T02:56:14.083337+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:00:12.510921+00:00 ubuntu-server unix_chkpwd[18890]: password check failed for user (owess)
+2026-05-18T03:00:12.511847+00:00 ubuntu-server sudo: pam_unix(sudo:auth): authentication failure; logname=owess uid=1000 euid=0 tty=/dev/tty1 ruser=owess rhost=  user=owess
+2026-05-18T03:00:27.683586+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:00:27.686805+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/apt install openssh-server net-tools curl -y
+2026-05-18T03:01:19.017382+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:02:25.216007+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:02:25.216187+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-18T03:02:25.237182+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:03:15.782249+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:03:15.782632+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-05-18T03:03:15.855333+00:00 ubuntu-server sshd[19409]: Server listening on 0.0.0.0 port 22.
+2026-05-18T03:03:15.855725+00:00 ubuntu-server sshd[19409]: Server listening on :: port 22.
+2026-05-18T03:03:15.859737+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:03:21.511584+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:03:21.512051+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-18T03:03:21.536556+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:03:51.140779+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:03:51.140981+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-18T03:03:51.161456+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:10:01.240822+00:00 ubuntu-server CRON[19484]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-18T03:10:01.242336+00:00 ubuntu-server CRON[19484]: pam_unix(cron:session): session closed for user root
+2026-05-18T03:17:00.694004+00:00 ubuntu-server sshd-session[19520]: Accepted password for owess from 10.132.153.71 port 47766 ssh2
+2026-05-18T03:17:00.696504+00:00 ubuntu-server sshd-session[19520]: pam_unix(sshd:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T03:17:00.704100+00:00 ubuntu-server systemd-logind[1035]: New session '6' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T03:17:01.430452+00:00 ubuntu-server CRON[19552]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-18T03:17:01.434561+00:00 ubuntu-server CRON[19552]: pam_unix(cron:session): session closed for user root
+2026-05-18T03:18:58.140878+00:00 ubuntu-server sshd-session[19520]: syslogin_perform_logout: logout() returned an error
+2026-05-18T03:18:58.145259+00:00 ubuntu-server sshd-session[19604]: Received disconnect from 10.132.153.71 port 47766:11: disconnected by user
+2026-05-18T03:18:58.151169+00:00 ubuntu-server sshd-session[19604]: Disconnected from user owess 10.132.153.71 port 47766
+2026-05-18T03:18:58.152101+00:00 ubuntu-server sshd-session[19520]: pam_unix(sshd:session): session closed for user owess
+2026-05-18T03:18:58.152709+00:00 ubuntu-server systemd-logind[1035]: Session 6 logged out. Waiting for processes to exit.
+2026-05-18T03:18:58.152847+00:00 ubuntu-server systemd-logind[1035]: Removed session 6.
+2026-05-18T03:23:32.174997+00:00 ubuntu-server sshd-session[19652]: Connection closed by 10.132.153.71 port 56258
+2026-05-18T03:28:19.086869+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:28:19.092602+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/apt install
+2026-05-18T03:28:19.985944+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:28:57.728769+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:28:57.729058+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-05-18T03:28:58.209255+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:31:22.096765+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:31:22.096972+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+2026-05-18T03:31:22.260201+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:31:56.620571+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:31:56.620981+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-05-18T03:31:56.734663+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:33:25.391231+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:33:25.395941+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/apt install fail2ban
+2026-05-18T03:34:24.200452+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T03:34:54.893804+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T03:34:54.893938+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2026-05-18T03:34:54.921297+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+                                                                                            2026-05-18T21:53:26.257113+00:00 ubuntu-server systemd-logind[1139]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-18T21:53:26.257117+00:00 ubuntu-server systemd-logind[1139]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-18T21:53:26.257121+00:00 ubuntu-server systemd-logind[1139]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-18T21:53:26.257124+00:00 ubuntu-server systemd-logind[1139]: New seat seat0.
+2026-05-18T21:53:51.492480+00:00 ubuntu-server login: pam_unix(login:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T21:53:51.517288+00:00 ubuntu-server systemd-logind[1139]: New session '1' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T21:53:51.557328+00:00 ubuntu-server (systemd): pam_unix(systemd-user:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T21:53:51.558587+00:00 ubuntu-server systemd-logind[1139]: New session '2' of user 'owess' with class 'manager' and type 'unspecified'.
+2026-05-18T22:17:01.939455+00:00 ubuntu-server CRON[1835]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-18T22:17:01.945955+00:00 ubuntu-server CRON[1835]: pam_unix(cron:session): session closed for user root
+2026-05-18T22:59:40.262733+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T22:59:40.267025+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-18T22:59:40.311139+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:00:39.841502+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:00:39.841762+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-05-18T23:00:39.885651+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:02:53.255173+00:00 ubuntu-server sshd[2027]: Server listening on 0.0.0.0 port 22.
+2026-05-18T23:02:53.257327+00:00 ubuntu-server sshd[2027]: Server listening on :: port 22.
+2026-05-18T23:03:31.302276+00:00 ubuntu-server sshd-session[2030]: Accepted password for owess from 10.132.153.71 port 58798 ssh2
+2026-05-18T23:03:31.305677+00:00 ubuntu-server sshd-session[2030]: pam_unix(sshd:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T23:03:31.310451+00:00 ubuntu-server systemd-logind[1139]: New session '4' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T23:05:42.815497+00:00 ubuntu-server sshd-session[2030]: syslogin_perform_logout: logout() returned an error
+2026-05-18T23:05:42.820144+00:00 ubuntu-server sshd-session[2112]: Received disconnect from 10.132.153.71 port 58798:11: disconnected by user
+2026-05-18T23:05:42.824960+00:00 ubuntu-server sshd-session[2112]: Disconnected from user owess 10.132.153.71 port 58798
+2026-05-18T23:05:42.825282+00:00 ubuntu-server systemd-logind[1139]: Session 4 logged out. Waiting for processes to exit.
+2026-05-18T23:05:42.826043+00:00 ubuntu-server sshd-session[2030]: pam_unix(sshd:session): session closed for user owess
+2026-05-18T23:05:42.826141+00:00 ubuntu-server systemd-logind[1139]: Removed session 4.
+2026-05-18T23:07:35.068077+00:00 ubuntu-server sshd-session[2150]: Connection closed by 10.132.153.71 port 49370
+2026-05-18T23:09:35.954728+00:00 ubuntu-server sshd-session[2151]: Connection closed by 10.132.153.71 port 39380
+2026-05-18T23:10:18.526119+00:00 ubuntu-server sshd-session[2156]: Connection closed by 10.132.153.71 port 38374
+2026-05-18T23:17:01.375118+00:00 ubuntu-server CRON[2177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-18T23:17:01.378649+00:00 ubuntu-server CRON[2177]: pam_unix(cron:session): session closed for user root
+2026-05-18T23:17:05.635524+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:17:05.663579+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-05-18T23:17:05.771658+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:17:32.196456+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:17:32.200026+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+2026-05-18T23:17:32.355127+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:17:58.859953+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:17:58.860147+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-05-18T23:17:59.166507+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:18:37.206913+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:18:37.207195+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-05-18T23:18:37.310300+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:20:53.734564+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:20:53.734874+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2026-05-18T23:20:53.757953+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:23:51.153103+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:23:51.179046+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/vi /etc/fail2ban/jail.local
+2026-05-18T23:25:44.713694+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:28:18.422855+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:28:18.423171+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2026-05-18T23:28:19.504851+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:28:43.333439+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:28:43.333548+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+2026-05-18T23:28:43.469736+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:29:26.316339+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:29:26.323454+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-05-18T23:29:26.457404+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-18T23:42:09.580538+00:00 ubuntu-server sshd-session[2484]: Accepted password for owess from 10.132.153.71 port 38420 ssh2
+2026-05-18T23:42:09.582952+00:00 ubuntu-server sshd-session[2484]: pam_unix(sshd:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-18T23:42:09.592317+00:00 ubuntu-server systemd-logind[1139]: New session '6' of user 'owess' with class 'user' and type 'tty'.
+2026-05-18T23:45:21.206445+00:00 ubuntu-server sshd-session[2484]: syslogin_perform_logout: logout() returned an error
+2026-05-18T23:45:21.212119+00:00 ubuntu-server sshd-session[2541]: Received disconnect from 10.132.153.71 port 38420:11: disconnected by user
+2026-05-18T23:45:21.217946+00:00 ubuntu-server sshd-session[2541]: Disconnected from user owess 10.132.153.71 port 38420
+2026-05-18T23:45:21.218326+00:00 ubuntu-server systemd-logind[1139]: Session 6 logged out. Waiting for processes to exit.
+2026-05-18T23:45:21.220093+00:00 ubuntu-server sshd-session[2484]: pam_unix(sshd:session): session closed for user owess
+2026-05-18T23:45:21.220192+00:00 ubuntu-server systemd-logind[1139]: Removed session 6.
+2026-05-18T23:52:13.066349+00:00 ubuntu-server sshd-session[2593]: Invalid user fakeuser from 10.132.153.71 port 41964
+2026-05-18T23:52:20.455166+00:00 ubuntu-server sshd-session[2593]: pam_unix(sshd:auth): check pass; user unknown
+2026-05-18T23:52:20.455323+00:00 ubuntu-server sshd-session[2593]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.132.153.71 
+2026-05-18T23:52:22.136000+00:00 ubuntu-server sshd-session[2593]: Failed password for invalid user fakeuser from 10.132.153.71 port 41964 ssh2
+2026-05-18T23:52:29.219470+00:00 ubuntu-server sshd-session[2593]: pam_unix(sshd:auth): check pass; user unknown
+2026-05-18T23:52:31.648193+00:00 ubuntu-server sshd-session[2593]: Failed password for invalid user fakeuser from 10.132.153.71 port 41964 ssh2
+2026-05-18T23:54:15.664473+00:00 ubuntu-server sshd[2027]: Timeout before authentication for connection from 10.132.153.71 to 10.132.153.237, pid = 2593
+2026-05-18T23:58:54.902373+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-18T23:58:54.907600+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-05-18T23:58:55.040701+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T00:00:10.143692+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-19T00:00:10.143875+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --no-pager
+2026-05-19T00:00:10.149803+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T00:00:30.086667+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-19T00:00:30.086863+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-05-19T00:00:30.221767+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T00:02:05.686075+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-19T00:02:05.686303+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh --no-pager
+2026-05-19T00:02:05.693252+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T00:04:25.838693+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-19T00:04:25.842061+00:00 ubuntu-server sudo: owess : TTY=/dev/tty1 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 10.132.153.71
+2026-05-19T00:04:25.972504+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-19T00:17:01.627338+00:00 ubuntu-server CRON[2833]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T00:17:01.632921+00:00 ubuntu-server CRON[2833]: pam_unix(cron:session): session closed for user root
+2026-05-19T01:17:01.205415+00:00 ubuntu-server CRON[2930]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T01:17:01.211192+00:00 ubuntu-server CRON[2930]: pam_unix(cron:session): session closed for user root
+2026-05-19T13:18:33.439345+00:00 ubuntu-server systemd-logind[1136]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-19T13:18:33.439349+00:00 ubuntu-server systemd-logind[1136]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-19T13:18:33.439353+00:00 ubuntu-server systemd-logind[1136]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-19T13:18:33.439357+00:00 ubuntu-server systemd-logind[1136]: New seat seat0.
+2026-05-19T17:22:57.055007+00:00 ubuntu-server systemd-logind[1122]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-19T17:22:57.055011+00:00 ubuntu-server systemd-logind[1122]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-19T17:22:57.055015+00:00 ubuntu-server systemd-logind[1122]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-19T17:22:57.055018+00:00 ubuntu-server systemd-logind[1122]: New seat seat0.
+2026-05-19T17:23:15.126276+00:00 ubuntu-server login: pam_unix(login:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-19T17:23:15.155062+00:00 ubuntu-server systemd-logind[1122]: New session '1' of user 'owess' with class 'user' and type 'tty'.
+2026-05-19T17:23:15.225057+00:00 ubuntu-server (systemd): pam_unix(systemd-user:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-19T17:23:15.226111+00:00 ubuntu-server systemd-logind[1122]: New session '2' of user 'owess' with class 'manager' and type 'unspecified'.
+2026-05-19T18:17:01.803642+00:00 ubuntu-server CRON[1734]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T18:17:01.810471+00:00 ubuntu-server CRON[1734]: pam_unix(cron:session): session closed for user root
+2026-05-19T19:17:01.858434+00:00 ubuntu-server CRON[1807]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T19:17:01.862957+00:00 ubuntu-server CRON[1807]: pam_unix(cron:session): session closed for user root
+2026-05-19T20:17:01.918780+00:00 ubuntu-server CRON[2163]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T20:17:01.923525+00:00 ubuntu-server CRON[2163]: pam_unix(cron:session): session closed for user root
+2026-05-19T21:17:01.970457+00:00 ubuntu-server CRON[2234]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T21:17:01.974890+00:00 ubuntu-server CRON[2234]: pam_unix(cron:session): session closed for user root
+2026-05-19T22:17:01.017869+00:00 ubuntu-server CRON[2313]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T22:17:01.023799+00:00 ubuntu-server CRON[2313]: pam_unix(cron:session): session closed for user root
+2026-05-19T22:31:15.599843+00:00 ubuntu-server sshd[2335]: Server listening on 0.0.0.0 port 22.
+2026-05-19T22:31:15.600124+00:00 ubuntu-server sshd[2335]: Server listening on :: port 22.
+2026-05-19T22:31:15.623451+00:00 ubuntu-server sshd-session[2337]: Connection closed by 10.132.153.71 port 53524
+2026-05-19T23:17:01.073426+00:00 ubuntu-server CRON[2400]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-19T23:17:01.078103+00:00 ubuntu-server CRON[2400]: pam_unix(cron:session): session closed for user root
+2026-05-19T23:30:15.799293+00:00 ubuntu-server sshd-session[2413]: Connection closed by 10.132.153.71 port 60088
+2026-05-20T00:17:01.130077+00:00 ubuntu-server CRON[2501]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-20T00:17:01.133342+00:00 ubuntu-server CRON[2501]: pam_unix(cron:session): session closed for user root
+2026-05-20T00:18:18.135039+00:00 ubuntu-server sshd-session[2511]: Accepted password for owess from 10.132.153.237 port 47758 ssh2
+2026-05-20T00:18:18.135811+00:00 ubuntu-server sshd-session[2511]: pam_unix(sshd:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-20T00:18:18.142233+00:00 ubuntu-server systemd-logind[1122]: New session '10' of user 'owess' with class 'user' and type 'tty'.
+2026-05-20T00:24:23.168052+00:00 ubuntu-server sshd-session[2660]: Connection closed by 10.132.153.71 port 43040
+2026-05-20T01:12:10.289567+00:00 ubuntu-server unix_chkpwd[2769]: password check failed for user (owess)
+2026-05-20T01:12:10.290581+00:00 ubuntu-server sudo: pam_unix(sudo:auth): authentication failure; logname=owess uid=1000 euid=0 tty=/dev/pts/0 ruser=owess rhost=  user=owess
+2026-05-20T01:12:21.350220+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:12:21.350443+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-20T01:13:54.582698+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:14:03.003766+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:14:03.004389+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-20T01:17:01.187962+00:00 ubuntu-server CRON[2803]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-20T01:17:01.193591+00:00 ubuntu-server CRON[2803]: pam_unix(cron:session): session closed for user root
+2026-05-20T01:21:29.157840+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:22:36.640514+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:22:36.644704+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/tail -20 /var/log/auth.lohh
+2026-05-20T01:22:36.648199+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:25:03.850348+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:25:03.850625+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/tail -20 /var/log/auth.log
+2026-05-20T01:25:03.860196+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:38:20.493446+00:00 ubuntu-server sshd-session[2886]: Received disconnect from 10.132.153.71 port 41486:11: Bye Bye [preauth]
+2026-05-20T01:38:20.498144+00:00 ubuntu-server sshd-session[2886]: Disconnected from authenticating user root 10.132.153.71 port 41486 [preauth]
+2026-05-20T01:38:20.862875+00:00 ubuntu-server unix_chkpwd[2896]: password check failed for user (root)
+2026-05-20T01:38:20.863846+00:00 ubuntu-server sshd-session[2888]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.132.153.71  user=root
+2026-05-20T01:38:20.883079+00:00 ubuntu-server unix_chkpwd[2897]: password check failed for user (root)
+2026-05-20T01:38:20.883220+00:00 ubuntu-server unix_chkpwd[2898]: password check failed for user (root)
+2026-05-20T01:38:20.883912+00:00 ubuntu-server sshd-session[2892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.132.153.71  user=root
+2026-05-20T01:38:20.884366+00:00 ubuntu-server sshd-session[2889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.132.153.71  user=root
+2026-05-20T01:38:20.892093+00:00 ubuntu-server unix_chkpwd[2899]: password check failed for user (root)
+2026-05-20T01:38:20.893062+00:00 ubuntu-server sshd-session[2890]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.132.153.71  user=root
+2026-05-20T01:38:22.730961+00:00 ubuntu-server sshd-session[2892]: Failed password for root from 10.132.153.71 port 41530 ssh2
+2026-05-20T01:38:22.752476+00:00 ubuntu-server sshd-session[2888]: Failed password for root from 10.132.153.71 port 41494 ssh2
+2026-05-20T01:38:22.755033+00:00 ubuntu-server sshd-session[2890]: Failed password for root from 10.132.153.71 port 41508 ssh2
+2026-05-20T01:38:23.003528+00:00 ubuntu-server sshd-session[2889]: Failed password for root from 10.132.153.71 port 41506 ssh2
+2026-05-20T01:38:23.484726+00:00 ubuntu-server unix_chkpwd[2901]: password check failed for user (root)
+2026-05-20T01:38:23.505565+00:00 ubuntu-server sshd-session[2892]: Received disconnect from 10.132.153.71 port 41530:11: Bye Bye [preauth]
+2026-05-20T01:38:23.508200+00:00 ubuntu-server sshd-session[2892]: Disconnected from authenticating user root 10.132.153.71 port 41530 [preauth]
+2026-05-20T01:38:23.513764+00:00 ubuntu-server unix_chkpwd[2903]: password check failed for user (root)
+2026-05-20T01:38:23.520820+00:00 ubuntu-server sshd-session[2890]: Received disconnect from 10.132.153.71 port 41508:11: Bye Bye [preauth]
+2026-05-20T01:38:23.520930+00:00 ubuntu-server sshd-session[2890]: Disconnected from authenticating user root 10.132.153.71 port 41508 [preauth]
+2026-05-20T01:38:25.195004+00:00 ubuntu-server sshd-session[2888]: Failed password for root from 10.132.153.71 port 41494 ssh2
+2026-05-20T01:38:25.804624+00:00 ubuntu-server sshd-session[2889]: Failed password for root from 10.132.153.71 port 41506 ssh2
+2026-05-20T01:40:22.791293+00:00 ubuntu-server sshd[2335]: Timeout before authentication for connection from 10.132.153.71 to 10.132.153.237, pid = 2888
+2026-05-20T01:40:23.218306+00:00 ubuntu-server sshd[2335]: Timeout before authentication for connection from 10.132.153.71 to 10.132.153.237, pid = 2889
+2026-05-20T01:40:23.218456+00:00 ubuntu-server sshd[2335]: srclimit_penalise: 10.132.153.71/32: activating ipv4 penalty of 20 seconds for penalty: exceeded LoginGraceTime
+2026-05-20T01:40:26.539887+00:00 ubuntu-server sshd[2335]: Timeout before authentication for connection from 10.132.153.71 to 10.132.153.237, pid = 2902
+2026-05-20T01:40:27.038424+00:00 ubuntu-server sshd[2335]: Timeout before authentication for connection from 10.132.153.71 to 10.132.153.237, pid = 2906
+2026-05-20T01:46:03.491278+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:46:03.495266+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/grep Failled password /var/log/auth.log
+2026-05-20T01:46:03.495593+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:48:20.307284+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:48:20.307637+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/grep Failled password /var/log/auth.log
+2026-05-20T01:48:20.309098+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:49:22.184384+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:49:22.184693+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client status ssh
+2026-05-20T01:49:22.332804+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:51:03.837500+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:51:03.841107+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-05-20T01:51:03.981112+00:00 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+2026-05-20T01:54:44.902823+00:00 ubuntu-server sshd-session[3032]: Accepted password for owess from 10.132.153.71 port 50962 ssh2
+2026-05-20T01:54:44.909265+00:00 ubuntu-server sshd-session[3032]: pam_unix(sshd:session): session opened for user owess(uid=1000) by owess(uid=0)
+2026-05-20T01:54:44.913793+00:00 ubuntu-server systemd-logind[1122]: New session '12' of user 'owess' with class 'user' and type 'tty'.
+2026-05-20T01:54:45.521230+00:00 ubuntu-server sshd-session[3112]: Received disconnect from 10.132.153.71 port 50962:11: disconnected by user
+2026-05-20T01:54:45.521764+00:00 ubuntu-server sshd-session[3112]: Disconnected from user owess 10.132.153.71 port 50962
+2026-05-20T01:54:45.522581+00:00 ubuntu-server sshd-session[3032]: pam_unix(sshd:session): session closed for user owess
+2026-05-20T01:54:45.527139+00:00 ubuntu-server systemd-logind[1122]: Session 12 logged out. Waiting for processes to exit.
+2026-05-20T01:54:45.529596+00:00 ubuntu-server systemd-logind[1122]: Removed session 12.
+2026-05-20T01:57:48.233188+00:00 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by owess(uid=1000)
+2026-05-20T01:57:48.238035+00:00 ubuntu-server sudo: owess : TTY=/dev/pts/0 ; PWD=/home/owess ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/owess/auth.log

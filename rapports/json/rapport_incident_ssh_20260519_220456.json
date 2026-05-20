@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "titre": "Rapport d'incident SSH — MTN CI Abidjan",
+        "date": "19/05/2026 a 22:04:56",
+        "auteur": "ASO2-Owess",
+        "total_tentatives": 8,
+        "total_reussites": 5,
+        "total_ips_suspectes": 1
+    },
+    "ips_suspectes": [
+        {
+            "ip": "10.132.153.71",
+            "tentatives": 8,
+            "risque": "CRITIQUE"
+        }
+    ]
+}
